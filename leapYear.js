@@ -1,5 +1,5 @@
 function leapyear(year){
-    let result = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+    let result = (year%100===0)?(year%400===0):(year%4);
     return result;
     
 }
