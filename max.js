@@ -19,6 +19,7 @@ function max(a,b,c){
 max(10,6,3);
 
 //another way to find the max
+//Onek gula value thika max value ber korte pare
 function max2(a,b,c){
     var r =Math.max(a,b,c);
     return r;
